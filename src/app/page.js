@@ -5,7 +5,10 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className={styles.page}>
-      <main>{/* <h1>Welcome to 32skills</h1> */}</main>
+      <main>
+        <h1>anilhitang</h1>
+        <p>Try out some random fun stuff</p>
+      </main>
       <Link href="/pages/jokes">Jokes</Link>
       <Link href="/pages/lyrics">Lyrics</Link>
     </div>

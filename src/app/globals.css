@@ -35,6 +35,23 @@ a {
   text-decoration: none;
 }
 
+header {
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid-container > div {
+  background-color: #f1f1f1;
+  color: #000;
+  padding: 15px 25px;
+  font-size: 18px;
+  margin: 15px 25px;
+  text-align: center;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

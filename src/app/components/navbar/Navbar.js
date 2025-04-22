@@ -2,10 +2,10 @@ import Link from "next/link";
 
 const navItems = {
   "/": {
-    name: "home",
+    name: "Home",
   },
   "/pages/privacy-policy": {
-    name: "privacy",
+    name: "Privacy policy",
   },
   //   "https://vercel.com/templates/next.js/portfolio-starter-kit": {
   //     name: "deploy",
@@ -15,7 +15,7 @@ const navItems = {
 export function Navbar() {
   return (
     <div>
-      <nav id="nav">
+      <nav id="nav" className="nav">
         <div>
           {Object.entries(navItems).map(([path, { name }]) => {
             return (

@@ -11,9 +11,16 @@ export default function Home() {
         <p>Try out some random fun stuff</p>
       </header>
       <main>
-        <div className="grid-container">
+        <div className="flex-container">
           <div className={styles.item_container}>
-            <Link href="/pages/jokes">Jokes</Link>
+            <Link href="/pages/jokes">
+              <Image
+                src="/jokes.png"
+                width={400}
+                height={250}
+                alt="Picture of the menu"
+              />
+            </Link>
           </div>
           <div className={styles.item_container}>
             <Link href="/pages/lyrics">Lyrics</Link>

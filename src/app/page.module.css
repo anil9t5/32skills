@@ -28,10 +28,10 @@
 }
 
 .item_container {
-  background: #ef6549;
-  border-radius: 50%;
-  width: 180px;
-  height: 180px;
+  /* background: #ef6549; */
+  /* border-radius: 50%; */
+  /* width: 180px; */
+  /* height: 180px; */
   overflow: hidden;
   transform-origin: center;
   /* box-shadow: 0 0 0 3px #ef6549; */

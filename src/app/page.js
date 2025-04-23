@@ -10,9 +10,9 @@ export default function Home() {
         <h1>anilhitang</h1>
         <p>Try out some random fun stuff</p>
       </header>
-      <main>
-        <div className="flex-container">
-          <div className={styles.item_container}>
+      <div className="container">
+        <div className="flex-container text-align-center">
+          <div className={`${styles.item_container} flex-item`}>
             <Link href="/pages/jokes">
               <Image
                 src="/jokes.png"
@@ -22,14 +22,14 @@ export default function Home() {
               />
             </Link>
           </div>
-          <div className={styles.item_container}>
+          <div className={`${styles.item_container} flex-item`}>
             <Link href="/pages/lyrics">Lyrics</Link>
           </div>
-          <div className={styles.item_container}>
+          <div className={`${styles.item_container} flex-item`}>
             <Link href="/pages/lyrics">Orange Catcher</Link>
           </div>
         </div>
-      </main>
+      </div>
     </div>
   );
 }

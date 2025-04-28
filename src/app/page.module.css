@@ -6,7 +6,7 @@
   overflow: hidden;
   transform-origin: center;
   /* box-shadow: 0 0 0 3px #ef6549; */
-  border: 2px solid #5e548e;
+  border: 1px solid #e5e5e5;
   border-radius: 25px;
   transition: transform 0.2s;
 }

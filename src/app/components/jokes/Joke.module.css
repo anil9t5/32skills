@@ -18,19 +18,19 @@
 .generateJoke {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #70a03a;
+    background-color: #5E548E;
     color: #ffffff;
     border: none;
-    font-size: 16px;
+    font-size: 18px;
     cursor: pointer;
     border-radius: 8px;
     transition: background-color .5s;
 }
 
 .generateJoke:hover {
-    background-color: #c1f590;
+    background-color: #BE95C4;
 }
 
 .generateJoke:active {
-    background-color: #297910;
+    background-color: #5E548E;
 }

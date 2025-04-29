@@ -1,6 +1,6 @@
 :root {
   --background: #ffffff;
-  --foreground: #14213d;
+  --foreground: #14213D;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -37,9 +37,12 @@ a {
 
 header {
   text-align: center;
+  margin: 0 auto;
 }
 .nav {
   overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .nav a {

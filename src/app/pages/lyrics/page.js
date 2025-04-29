@@ -4,7 +4,7 @@ import React from "react";
 const Lyrics = () => {
   return (
     <div>
-      Lyrics Page
+      <h2>Search Your Favorite Lyrics</h2>
       <GenerateLyrics />
     </div>
   );

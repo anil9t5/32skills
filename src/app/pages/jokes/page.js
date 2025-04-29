@@ -3,8 +3,8 @@ import React from "react";
 
 const Jokes = () => {
   return (
-    <div>
-      Jokes Page
+    <div className="text-align-center"><br/><br/>
+      <h2>Your Daily Dose of Jokes</h2><br/><br/>
       <Joke />
     </div>
   );

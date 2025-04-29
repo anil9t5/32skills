@@ -6,8 +6,8 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className={styles.page}>
-      <header>
-        <h1>anilhitang</h1>
+      <header><br /><br />
+        <h1 style={{ fontFamily: 'var(--font-dynapuff), cursive' }}>anilhitang</h1>
         <p>Try out some random fun stuff</p>
       </header>
       <div className="container">

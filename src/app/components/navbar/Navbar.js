@@ -1,18 +1,25 @@
+'use client';
 import Link from "next/link";
+import { usePathname } from 'next/navigation';
 
 const navItems = {
   "/": {
-    name: "Home",
+    name: "anilhitang",
   },
-  "/pages/privacy-policy": {
-    name: "Privacy policy",
-  },
+  // "/pages/privacy-policy": {
+  //   name: "Privacy policy",
+  // },
   //   "https://vercel.com/templates/next.js/portfolio-starter-kit": {
   //     name: "deploy",
   //   },
 };
 
 export function Navbar() {
+  const pathname = usePathname();
+  if (pathname === '/') {
+    // Don't render anything on home page
+    return null;
+  }
   return (
     <div>
       <nav id="nav" className="nav">
@@ -22,9 +29,8 @@ export function Navbar() {
               <Link
                 key={path}
                 href={path}
-                className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1"
               >
-                {name}
+                <h2 style={{ fontFamily: 'var(--font-dynapuff), cursive' }}>{name}</h2>
               </Link>
             );
           })}

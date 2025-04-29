@@ -6,8 +6,12 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className={styles.page}>
-      <header><br /><br />
-        <h1 style={{ fontFamily: 'var(--font-dynapuff), cursive' }}>anilhitang</h1>
+      <header>
+        <br />
+        <br />
+        <h1 style={{ fontFamily: "var(--font-dynapuff), cursive" }}>
+          anilhitang
+        </h1>
         <p>Try out some random fun stuff</p>
       </header>
       <div className="container">
@@ -27,7 +31,6 @@ export default function Home() {
           </div>
           <div className={`${styles.item_container} flex-item`}>
             <Link href="/pages/lyrics">
-              {" "}
               <Image
                 src="/lyrics-cover.png"
                 width={600}
@@ -38,14 +41,14 @@ export default function Home() {
             </Link>
           </div>
           <div className={`${styles.item_container} flex-item`}>
-            <Link href="/pages/lyrics">
+            <Link href="/pages/paintings">
               <Image
                 src="/orange-cover.png"
                 width={600}
                 height={300}
                 alt="Picture of the menu"
               />
-              <h4>Orange Catcher</h4>
+              <h4>Paint</h4>
             </Link>
           </div>
         </div>
